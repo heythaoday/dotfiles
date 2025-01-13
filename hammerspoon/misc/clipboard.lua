@@ -49,9 +49,6 @@ function putOnPaste(string,key)
       else
          pasteboard.setContents(string)
          last_change = pasteboard.changeCount() -- Updates last_change to prevent item duplication when putting on paste
-      end
-   end
-end
 
 -- Clears the clipboard and history
 function clearAll()
